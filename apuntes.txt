@@ -1,0 +1,19 @@
+Node:
+Es de codigo abierto
+No utiliza
+Cada Versión de Node utiliza el motor V-8 (motor de Google)
+Nvm -> Node version manager
+https://github.com/coreybutler/nvm-windows--> download now --> nvm-setup.exe
+nvm ls available
+nvm install latest
+nvm install 23.8.0
+nvm install 23.8.0
+nvm ls
+os-> operating system ( sistema operativo)
+Problema de los Nodemodules
+monohilo, multihilo
+síncroma, asíncrona
+
+node no necesita trabajar con un servidor, ya es el servidor
+
+ node --watch .\07_http_2.js --> ¿Para qué sirve el --watch? Es una variable bandera, pero qué más?
