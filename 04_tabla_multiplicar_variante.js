@@ -13,11 +13,14 @@ Con eso  generaremos esta salida por el terminal :
 
 const fs = require ("node:fs")
 
-const numero = process.argv[2]
-const inicio = process.argv[3]
-const final = process.argv[4]
-// console.log(numero);
+const numero = parseInt(process.argv[2])
+const inicio = parseInt(process.argv[3])
+const final = parseInt(process.argv[4])
 
+// console.log(numero);
+// console.log(inicio);
+// console.log(final);
+// console.log(typeof process.argv[3]); // string
 
 let salida = `Tabla de multiplicar del ${numero}\n`
 salida += "=".repeat(salida.length - 1)
@@ -30,8 +33,8 @@ for (let i= inicio; i <= final; i++ ){
 console.log(salida);
 
 // Vamos a guardarlo en un fichero: tabla_multiplicar_del_X.txt 
-try{
-fs.writeFileSync(`tabla_multiplicar_del_${numero}_${inicio}_${final}`, salida, "utf-8")
-} catch (error){
-    console.log(error);
-}
+// try{
+// fs.writeFileSync(`tabla_multiplicar_del_${numero}_${inicio}_${final}`, salida, "utf-8")
+// } catch (error){
+//     console.log(error);
+// }

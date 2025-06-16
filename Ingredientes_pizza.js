@@ -15,5 +15,4 @@ const ingredientes = [
 
 ]
 
-
 module.exports = ingredientes

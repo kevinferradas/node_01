@@ -38,4 +38,3 @@ console.log(mensaje, "\n\n");
 
 // console.log(process.argv.length);
 
-module.exports = pizzas
